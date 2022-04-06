@@ -1,73 +1,11 @@
 ---Constraint solving at [/Users/amritpankaur/test.swift:55:1 - line:55:11]---
 ---Initial constraints for the given expression---
 (binary_expr type='$T6' location=/Users/amritpankaur/test.swift:55:9 range=[/Users/amritpankaur/test.swift:55:1 - line:55:11]
-  (overloaded_decl_ref_expr type='$T0' location=/Users/amritpankaur/test.swift:55:9 range=[/Users/amritpankaur/test.swift:55:9 - line:55:9] name=+ number_of_decls=31 function_ref=single decls=[
-    Swift.(file).String extension.+,
-    Swift.(file).Float16 extension.+,
-    Swift.(file).Float extension.+,
-    Swift.(file).Double extension.+,
-    Swift.(file).UInt8 extension.+,
-    Swift.(file).Int8 extension.+,
-    Swift.(file).UInt16 extension.+,
-    Swift.(file).Int16 extension.+,
-    Swift.(file).UInt32 extension.+,
-    Swift.(file).Int32 extension.+,
-    Swift.(file).UInt64 extension.+,
-    Swift.(file).Int64 extension.+,
-    Swift.(file).UInt extension.+,
-    Swift.(file).Int extension.+,
-    Swift.(file).Array extension.+,
-    Swift.(file).FloatingPoint.+,
-    Swift.(file).AdditiveArithmetic.+,
-    Swift.(file).BinaryInteger.+,
-    Swift.(file).Strideable extension.+,
-    Swift.(file).Strideable extension.+,
-    Swift.(file).Sequence extension.+,
-    Swift.(file).Sequence extension.+,
-    Swift.(file).SIMD extension.+,
-    Swift.(file).SIMD extension.+,
-    Swift.(file).SIMD extension.+,
-    Swift.(file).SIMD extension.+,
-    Swift.(file).SIMD extension.+,
-    Swift.(file).SIMD extension.+,
-    Swift.(file).RangeReplaceableCollection extension.+,
-    Swift.(file).RangeReplaceableCollection extension.+,
-    Swift.(file).RangeReplaceableCollection extension.+])
+  (overloaded_decl_ref_expr type='$T0' location=/Users/amritpankaur/test.swift:55:9 range=[/Users/amritpankaur/test.swift:55:9 - line:55:9] name=+ number_of_decls=31)
   (argument_list implicit
     (argument
       (binary_expr type='$T4' location=/Users/amritpankaur/test.swift:55:3 range=[/Users/amritpankaur/test.swift:55:1 - line:55:5]
-        (overloaded_decl_ref_expr type='$T1' location=/Users/amritpankaur/test.swift:55:3 range=[/Users/amritpankaur/test.swift:55:3 - line:55:3] name=+ number_of_decls=31 function_ref=single decls=[
-          Swift.(file).String extension.+,
-          Swift.(file).Float16 extension.+,
-          Swift.(file).Float extension.+,
-          Swift.(file).Double extension.+,
-          Swift.(file).UInt8 extension.+,
-          Swift.(file).Int8 extension.+,
-          Swift.(file).UInt16 extension.+,
-          Swift.(file).Int16 extension.+,
-          Swift.(file).UInt32 extension.+,
-          Swift.(file).Int32 extension.+,
-          Swift.(file).UInt64 extension.+,
-          Swift.(file).Int64 extension.+,
-          Swift.(file).UInt extension.+,
-          Swift.(file).Int extension.+,
-          Swift.(file).Array extension.+,
-          Swift.(file).FloatingPoint.+,
-          Swift.(file).AdditiveArithmetic.+,
-          Swift.(file).BinaryInteger.+,
-          Swift.(file).Strideable extension.+,
-          Swift.(file).Strideable extension.+,
-          Swift.(file).Sequence extension.+,
-          Swift.(file).Sequence extension.+,
-          Swift.(file).SIMD extension.+,
-          Swift.(file).SIMD extension.+,
-          Swift.(file).SIMD extension.+,
-          Swift.(file).SIMD extension.+,
-          Swift.(file).SIMD extension.+,
-          Swift.(file).SIMD extension.+,
-          Swift.(file).RangeReplaceableCollection extension.+,
-          Swift.(file).RangeReplaceableCollection extension.+,
-          Swift.(file).RangeReplaceableCollection extension.+])
+        (overloaded_decl_ref_expr type='$T1' location=/Users/amritpankaur/test.swift:55:3 range=[/Users/amritpankaur/test.swift:55:3 - line:55:3] name=+ number_of_decls=31 function_ref=single decls=[)
         (argument_list implicit
           (argument
             (integer_literal_expr type='$T2' location=/Users/amritpankaur/test.swift:55:1 range=[/Users/amritpankaur/test.swift:55:1 - line:55:1] value=1 builtin_initializer=**NULL** initializer=**NULL**))
@@ -92,69 +30,11 @@ Active Constraints:
 
 Inactive Constraints:
   disjunction [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]]:
->             $T0 bound to decl Swift.(file).String extension.+ : (String.Type) -> (String, String) -> String [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).Float16 extension.+ : (Float16.Type) -> (Float16, Float16) -> Float16 [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).Float extension.+ : (Float.Type) -> (Float, Float) -> Float [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).Double extension.+ : (Double.Type) -> (Double, Double) -> Double [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).UInt8 extension.+ : (UInt8.Type) -> (UInt8, UInt8) -> UInt8 [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).Int8 extension.+ : (Int8.Type) -> (Int8, Int8) -> Int8 [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).UInt16 extension.+ : (UInt16.Type) -> (UInt16, UInt16) -> UInt16 [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).Int16 extension.+ : (Int16.Type) -> (Int16, Int16) -> Int16 [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).UInt32 extension.+ : (UInt32.Type) -> (UInt32, UInt32) -> UInt32 [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).Int32 extension.+ : (Int32.Type) -> (Int32, Int32) -> Int32 [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).UInt64 extension.+ : (UInt64.Type) -> (UInt64, UInt64) -> UInt64 [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).Int64 extension.+ : (Int64.Type) -> (Int64, Int64) -> Int64 [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).UInt extension.+ : (UInt.Type) -> (UInt, UInt) -> UInt [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->  [favored]  $T0 bound to decl Swift.(file).Int extension.+ : (Int.Type) -> (Int, Int) -> Int [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).Array extension.+ : <Element> (Array<Element>.Type) -> (Array<Element>, Array<Element>) -> Array<Element> [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).FloatingPoint.+ : <Self where Self : FloatingPoint> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).AdditiveArithmetic.+ : <Self where Self : AdditiveArithmetic> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).BinaryInteger.+ : <Self where Self : BinaryInteger> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).Strideable extension.+ : <Self where Self : _Pointer> (Self.Type) -> (Self, Self.Stride) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).Strideable extension.+ : <Self where Self : _Pointer> (Self.Type) -> (Self.Stride, Self) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).Sequence extension.+ : <Self where Self : Sequence, Self.Element == String> (Self.Type) -> (Self, String) -> Never [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).Sequence extension.+ : <Self where Self : Sequence, Self.Element == String> (Self.Type) -> (String, Self) -> Never [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self.Scalar) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self.Scalar, Self) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self.Scalar, Self) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self.Scalar) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Other, Self) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
->             $T0 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : RangeReplaceableCollection, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
-  disjunction [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]]:
->  [favored]  $T1 bound to decl Swift.(file).String extension.+ : (String.Type) -> (String, String) -> String [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Float16 extension.+ : (Float16.Type) -> (Float16, Float16) -> Float16 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Float extension.+ : (Float.Type) -> (Float, Float) -> Float [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Double extension.+ : (Double.Type) -> (Double, Double) -> Double [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt8 extension.+ : (UInt8.Type) -> (UInt8, UInt8) -> UInt8 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int8 extension.+ : (Int8.Type) -> (Int8, Int8) -> Int8 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt16 extension.+ : (UInt16.Type) -> (UInt16, UInt16) -> UInt16 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int16 extension.+ : (Int16.Type) -> (Int16, Int16) -> Int16 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt32 extension.+ : (UInt32.Type) -> (UInt32, UInt32) -> UInt32 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int32 extension.+ : (Int32.Type) -> (Int32, Int32) -> Int32 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt64 extension.+ : (UInt64.Type) -> (UInt64, UInt64) -> UInt64 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int64 extension.+ : (Int64.Type) -> (Int64, Int64) -> Int64 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt extension.+ : (UInt.Type) -> (UInt, UInt) -> UInt [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->  [favored]  $T1 bound to decl Swift.(file).Int extension.+ : (Int.Type) -> (Int, Int) -> Int [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Array extension.+ : <Element> (Array<Element>.Type) -> (Array<Element>, Array<Element>) -> Array<Element> [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).FloatingPoint.+ : <Self where Self : FloatingPoint> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).AdditiveArithmetic.+ : <Self where Self : AdditiveArithmetic> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).BinaryInteger.+ : <Self where Self : BinaryInteger> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Strideable extension.+ : <Self where Self : _Pointer> (Self.Type) -> (Self, Self.Stride) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Strideable extension.+ : <Self where Self : _Pointer> (Self.Type) -> (Self.Stride, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Sequence extension.+ : <Self where Self : Sequence, Self.Element == String> (Self.Type) -> (Self, String) -> Never [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Sequence extension.+ : <Self where Self : Sequence, Self.Element == String> (Self.Type) -> (String, Self) -> Never [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self.Scalar) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self.Scalar, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self.Scalar, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self.Scalar) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Other, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : RangeReplaceableCollection, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
+>  [favored]  $T0 : [(((Int.Type) -> (Int, Int) -> Int)] [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
+>             $T0 : [(String.Type) -> (String, String) -> String), ((Float16.Type) -> (Float16, Float16) -> Float16), ((Float.Type) -> (Float, Float) -> Float), ((Double.Type) -> (Double, Double) -> Double), ((UInt8.Type) -> (UInt8, UInt8) -> UInt8), ((Int8.Type) -> (Int8, Int8) -> Int8), ((UInt16.Type) -> (UInt16, UInt16) -> UInt16), ((Int16.Type) -> (Int16, Int16) -> Int16), ((UInt32.Type) -> (UInt32, UInt32) -> UInt32), ((Int32.Type) -> (Int32, Int32) -> Int32), ((UInt64.Type) -> (UInt64, UInt64) -> UInt64), ((Int64.Type) -> (Int64, Int64) -> Int64), ((UInt.Type) -> (UInt, UInt) -> UInt), ((Int.Type) -> (Int, Int) -> Int), (<Element> (Array<Element>.Type) -> (Array<Element>, Array<Element>) -> Array<Element>), (<Self where Self : FloatingPoint> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : AdditiveArithmetic> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : BinaryInteger> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : _Pointer> (Self.Type) -> (Self, Self.Stride) -> Self), (<Self where Self : _Pointer> (Self.Type) -> (Self.Stride, Self) -> Self), (<Self where Self : Sequence, Self.Element == String> (Self.Type) -> (Self, String) -> Never), (<Self where Self : Sequence, Self.Element == String> (Self.Type) -> (String, Self) -> Never), (<Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self.Scalar, Self) -> Self), (<Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self)[[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
+  disjunction [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]]:
+>  [favored]  $T1 : [((String.Type) -> (String, String) -> String), ((Int.Type) -> (Int, Int) -> Int)] [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
+>             $T1 : [((Float16.Type) -> (Float16, Float16) -> Float16), ((Float.Type) -> (Float, Float) -> Float), ((Double.Type) -> (Double, Double) -> Double), ((UInt8.Type) -> (UInt8, UInt8) -> UInt8), ((Int8.Type) -> (Int8, Int8) -> Int8), ((UInt16.Type) -> (UInt16, UInt16) -> UInt16), ((Int16.Type) -> (Int16, Int16) -> Int16), ((UInt32.Type) -> (UInt32, UInt32) -> UInt32), ((Int32.Type) -> (Int32, Int32) -> Int32), ((UInt64.Type) -> (UInt64, UInt64) -> UInt64), ((Int64.Type) -> (Int64, Int64) -> Int64), ((UInt.Type) -> (UInt, UInt) -> UInt), ((Int.Type) -> (Int, Int) -> Int), (<Element> (Array<Element>.Type) -> (Array<Element>, Array<Element>) -> Array<Element>), (<Self where Self : FloatingPoint> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : AdditiveArithmetic> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : BinaryInteger> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : _Pointer> (Self.Type) -> (Self, Self.Stride) -> Self), (<Self where Self : _Pointer> (Self.Type) -> (Self.Stride, Self) -> Self), (<Self where Self : Sequence, Self.Element == String> (Self.Type) -> (Self, String) -> Never), (<Self where Self : Sequence, Self.Element == String> (Self.Type) -> (String, Self) -> Never), (<Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self.Scalar, Self) -> Self), (<Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self)[[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
   $T2 literal conforms to ExpressibleByIntegerLiteral [[locator@0x1258f0ac0 [IntegerLiteral@/Users/amritpankaur/test.swift:55:1]]];
   $T3 literal conforms to ExpressibleByUnicodeScalarLiteral [[locator@0x1258f0b78 [StringLiteral@/Users/amritpankaur/test.swift:55:5]]];
   ($T2, $T3) -> $T4 applicable fn $T1 [[locator@0x1258f0d00 [Binary@/Users/amritpankaur/test.swift:55:3 -> apply function]]];
@@ -163,45 +43,16 @@ Inactive Constraints:
   ($T2 delayed literal=3 bindings={})
   ($T3 delayed literal=3 bindings={})
   ($T5 delayed literal=3 bindings={})
-  (attempting disjunction choice $T0 bound to decl Swift.(file).Int extension.+ : (Int.Type) -> (Int, Int) -> Int [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
+  (attempting $T0 : (Int.Type) -> (Int, Int) -> Int ;
     (overload set choice binding $T0 := (Int, Int) -> Int)
     ---Constraint graph---
   $T0:
 
-  $T1:
-    Constraints:
-      disjunction [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]]:
->  [favored]  $T1 bound to decl Swift.(file).String extension.+ : (String.Type) -> (String, String) -> String [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Float16 extension.+ : (Float16.Type) -> (Float16, Float16) -> Float16 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Float extension.+ : (Float.Type) -> (Float, Float) -> Float [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Double extension.+ : (Double.Type) -> (Double, Double) -> Double [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt8 extension.+ : (UInt8.Type) -> (UInt8, UInt8) -> UInt8 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int8 extension.+ : (Int8.Type) -> (Int8, Int8) -> Int8 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt16 extension.+ : (UInt16.Type) -> (UInt16, UInt16) -> UInt16 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int16 extension.+ : (Int16.Type) -> (Int16, Int16) -> Int16 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt32 extension.+ : (UInt32.Type) -> (UInt32, UInt32) -> UInt32 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int32 extension.+ : (Int32.Type) -> (Int32, Int32) -> Int32 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt64 extension.+ : (UInt64.Type) -> (UInt64, UInt64) -> UInt64 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int64 extension.+ : (Int64.Type) -> (Int64, Int64) -> Int64 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt extension.+ : (UInt.Type) -> (UInt, UInt) -> UInt [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->  [favored]  $T1 bound to decl Swift.(file).Int extension.+ : (Int.Type) -> (Int, Int) -> Int [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Array extension.+ : <Element> (Array<Element>.Type) -> (Array<Element>, Array<Element>) -> Array<Element> [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).FloatingPoint.+ : <Self where Self : FloatingPoint> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).AdditiveArithmetic.+ : <Self where Self : AdditiveArithmetic> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).BinaryInteger.+ : <Self where Self : BinaryInteger> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Strideable extension.+ : <Self where Self : _Pointer> (Self.Type) -> (Self, Self.Stride) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Strideable extension.+ : <Self where Self : _Pointer> (Self.Type) -> (Self.Stride, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Sequence extension.+ : <Self where Self : Sequence, Self.Element == String> (Self.Type) -> (Self, String) -> Never [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Sequence extension.+ : <Self where Self : Sequence, Self.Element == String> (Self.Type) -> (String, Self) -> Never [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self.Scalar) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self.Scalar, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self.Scalar, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self.Scalar) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Other, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : RangeReplaceableCollection, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
+   $T1:
+     Constraints:
+    disjunction [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]]:
+ >  [favored]  $T1 : [((String.Type) -> (String, String) -> String), ((Int.Type) -> (Int, Int) -> Int)] [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
+ >             $T1 : [((Float16.Type) -> (Float16, Float16) -> Float16), ((Float.Type) -> (Float, Float) -> Float), ((Double.Type) -> (Double, Double) -> Double), ((UInt8.Type) -> (UInt8, UInt8) -> UInt8), ((Int8.Type) -> (Int8, Int8) -> Int8), ((UInt16.Type) -> (UInt16, UInt16) -> UInt16), ((Int16.Type) -> (Int16, Int16) -> Int16), ((UInt32.Type) -> (UInt32, UInt32) -> UInt32), ((Int32.Type) -> (Int32, Int32) -> Int32), ((UInt64.Type) -> (UInt64, UInt64) -> UInt64), ((Int64.Type) -> (Int64, Int64) -> Int64), ((UInt.Type) -> (UInt, UInt) -> UInt), ((Int.Type) -> (Int, Int) -> Int), (<Element> (Array<Element>.Type) -> (Array<Element>, Array<Element>) -> Array<Element>), (<Self where Self : FloatingPoint> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : AdditiveArithmetic> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : BinaryInteger> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : _Pointer> (Self.Type) -> (Self, Self.Stride) -> Self), (<Self where Self : _Pointer> (Self.Type) -> (Self.Stride, Self) -> Self), (<Self where Self : Sequence, Self.Element == String> (Self.Type) -> (Self, String) -> Never), (<Self where Self : Sequence, Self.Element == String> (Self.Type) -> (String, Self) -> Never), (<Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self) -> Self), (<Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self.Scalar, Self) -> Self), (<Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self)[[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
       ($T2, $T3) -> $T4 applicable fn $T1 [[locator@0x1258f0d00 [Binary@/Users/amritpankaur/test.swift:55:3 -> apply function]]];
 
   $T2:
@@ -485,76 +336,11 @@ Inactive Constraints:
           (failed constraint $T4.Scalar conforms to FloatingPoint [[locator@0x12682e028 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3 -> opened generic -> type parameter requirement #1 (conformance)]]];)
         )
       )
-      (skipping unavailable disjunction choice $T1 bound to decl Swift.(file).Sequence extension.+ : <Self where Self : Sequence, Self.Element == String> (Self.Type) -> (Self, String) -> Never [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
-      (skipping unavailable disjunction choice $T1 bound to decl Swift.(file).Sequence extension.+ : <Self where Self : Sequence, Self.Element == String> (Self.Type) -> (String, Self) -> Never [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
-      (skipping unavailable disjunction choice $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
-      (skipping unavailable disjunction choice $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self.Scalar) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
-      (skipping unavailable disjunction choice $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self.Scalar, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
+     (skipping unavailable disjunction choice $T1 := [(<Self where Self : Sequence, Self.Element == String> (Self.Type) -> (Self, String) -> Never), (<Self where Self : Sequence, Self.Element == String> (Self.Type) -> (String, Self) -> Never), (<Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self)), (<Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self.Scalar) -> Self), (<Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self.Scalar, Self) -> Self)] [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
     failed component #0)
   )
   (attempting disjunction choice $T0 bound to decl Swift.(file).String extension.+ : (String.Type) -> (String, String) -> String [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
     (overload set choice binding $T0 := (String, String) -> String)
-    ---Constraint graph---
-  $T0:
-
-  $T1:
-    Constraints:
-      disjunction [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]]:
->  [favored]  $T1 bound to decl Swift.(file).String extension.+ : (String.Type) -> (String, String) -> String [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Float16 extension.+ : (Float16.Type) -> (Float16, Float16) -> Float16 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Float extension.+ : (Float.Type) -> (Float, Float) -> Float [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Double extension.+ : (Double.Type) -> (Double, Double) -> Double [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt8 extension.+ : (UInt8.Type) -> (UInt8, UInt8) -> UInt8 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int8 extension.+ : (Int8.Type) -> (Int8, Int8) -> Int8 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt16 extension.+ : (UInt16.Type) -> (UInt16, UInt16) -> UInt16 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int16 extension.+ : (Int16.Type) -> (Int16, Int16) -> Int16 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt32 extension.+ : (UInt32.Type) -> (UInt32, UInt32) -> UInt32 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int32 extension.+ : (Int32.Type) -> (Int32, Int32) -> Int32 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt64 extension.+ : (UInt64.Type) -> (UInt64, UInt64) -> UInt64 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int64 extension.+ : (Int64.Type) -> (Int64, Int64) -> Int64 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt extension.+ : (UInt.Type) -> (UInt, UInt) -> UInt [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->  [favored]  $T1 bound to decl Swift.(file).Int extension.+ : (Int.Type) -> (Int, Int) -> Int [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Array extension.+ : <Element> (Array<Element>.Type) -> (Array<Element>, Array<Element>) -> Array<Element> [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).FloatingPoint.+ : <Self where Self : FloatingPoint> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).AdditiveArithmetic.+ : <Self where Self : AdditiveArithmetic> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).BinaryInteger.+ : <Self where Self : BinaryInteger> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Strideable extension.+ : <Self where Self : _Pointer> (Self.Type) -> (Self, Self.Stride) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Strideable extension.+ : <Self where Self : _Pointer> (Self.Type) -> (Self.Stride, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Sequence extension.+ : <Self where Self : Sequence, Self.Element == String> (Self.Type) -> (Self, String) -> Never [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Sequence extension.+ : <Self where Self : Sequence, Self.Element == String> (Self.Type) -> (String, Self) -> Never [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self.Scalar) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self.Scalar, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self.Scalar, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self.Scalar) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Other, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : RangeReplaceableCollection, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
-      ($T2, $T3) -> $T4 applicable fn $T1 [[locator@0x1258f0d00 [Binary@/Users/amritpankaur/test.swift:55:3 -> apply function]]];
-
-  $T2:
-    Constraints:
-      $T2 literal conforms to ExpressibleByIntegerLiteral [[locator@0x1258f0ac0 [IntegerLiteral@/Users/amritpankaur/test.swift:55:1]]];
-      ($T2, $T3) -> $T4 applicable fn $T1 [[locator@0x1258f0d00 [Binary@/Users/amritpankaur/test.swift:55:3 -> apply function]]];
-
-  $T3:
-    Constraints:
-      $T3 literal conforms to ExpressibleByUnicodeScalarLiteral [[locator@0x1258f0b78 [StringLiteral@/Users/amritpankaur/test.swift:55:5]]];
-      ($T2, $T3) -> $T4 applicable fn $T1 [[locator@0x1258f0d00 [Binary@/Users/amritpankaur/test.swift:55:3 -> apply function]]];
-
-  $T4:
-    Constraints:
-      ($T2, $T3) -> $T4 applicable fn $T1 [[locator@0x1258f0d00 [Binary@/Users/amritpankaur/test.swift:55:3 -> apply function]]];
-      $T4 operator arg conv String [[locator@0x1258f2e10 [Binary@/Users/amritpankaur/test.swift:55:9 -> apply argument -> comparing call argument #0 to parameter #0]]];
-
-  $T5:
-    Constraints:
-      $T5 literal conforms to ExpressibleByIntegerLiteral [[locator@0x1258f0da8 [IntegerLiteral@/Users/amritpankaur/test.swift:55:11]]];
-      $T5 operator arg conv String [[locator@0x1258f2eb0 [Binary@/Users/amritpankaur/test.swift:55:9 -> apply argument -> comparing call argument #1 to parameter #1]]];
-
-  $T6:
-
 ---Connected components---
   0: $T1 $T2 $T3 $T4
   1: $T5
@@ -576,67 +362,6 @@ Inactive Constraints:
   )
   (attempting disjunction choice $T0 bound to decl Swift.(file).Float16 extension.+ : (Float16.Type) -> (Float16, Float16) -> Float16 [[locator@0x1258ee200 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:9]]];
     (overload set choice binding $T0 := (Float16, Float16) -> Float16)
-    ---Constraint graph---
-  $T0:
-
-  $T1:
-    Constraints:
-      disjunction [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]]:
->  [favored]  $T1 bound to decl Swift.(file).String extension.+ : (String.Type) -> (String, String) -> String [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Float16 extension.+ : (Float16.Type) -> (Float16, Float16) -> Float16 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Float extension.+ : (Float.Type) -> (Float, Float) -> Float [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Double extension.+ : (Double.Type) -> (Double, Double) -> Double [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt8 extension.+ : (UInt8.Type) -> (UInt8, UInt8) -> UInt8 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int8 extension.+ : (Int8.Type) -> (Int8, Int8) -> Int8 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt16 extension.+ : (UInt16.Type) -> (UInt16, UInt16) -> UInt16 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int16 extension.+ : (Int16.Type) -> (Int16, Int16) -> Int16 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt32 extension.+ : (UInt32.Type) -> (UInt32, UInt32) -> UInt32 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int32 extension.+ : (Int32.Type) -> (Int32, Int32) -> Int32 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt64 extension.+ : (UInt64.Type) -> (UInt64, UInt64) -> UInt64 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Int64 extension.+ : (Int64.Type) -> (Int64, Int64) -> Int64 [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).UInt extension.+ : (UInt.Type) -> (UInt, UInt) -> UInt [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->  [favored]  $T1 bound to decl Swift.(file).Int extension.+ : (Int.Type) -> (Int, Int) -> Int [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Array extension.+ : <Element> (Array<Element>.Type) -> (Array<Element>, Array<Element>) -> Array<Element> [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).FloatingPoint.+ : <Self where Self : FloatingPoint> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).AdditiveArithmetic.+ : <Self where Self : AdditiveArithmetic> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).BinaryInteger.+ : <Self where Self : BinaryInteger> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Strideable extension.+ : <Self where Self : _Pointer> (Self.Type) -> (Self, Self.Stride) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Strideable extension.+ : <Self where Self : _Pointer> (Self.Type) -> (Self.Stride, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Sequence extension.+ : <Self where Self : Sequence, Self.Element == String> (Self.Type) -> (Self, String) -> Never [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).Sequence extension.+ : <Self where Self : Sequence, Self.Element == String> (Self.Type) -> (String, Self) -> Never [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self, Self.Scalar) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FixedWidthInteger> (Self.Type) -> (Self.Scalar, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self.Scalar, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).SIMD extension.+ : <Self where Self : SIMD, Self.Scalar : FloatingPoint> (Self.Type) -> (Self, Self.Scalar) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : Sequence, Self.Element == Other.Element> (Self.Type) -> (Other, Self) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
->             $T1 bound to decl Swift.(file).RangeReplaceableCollection extension.+ : <Self, Other where Self : RangeReplaceableCollection, Other : RangeReplaceableCollection, Self.Element == Other.Element> (Self.Type) -> (Self, Other) -> Self [[locator@0x1258ef048 [OverloadedDeclRef@/Users/amritpankaur/test.swift:55:3]]];
-      ($T2, $T3) -> $T4 applicable fn $T1 [[locator@0x1258f0d00 [Binary@/Users/amritpankaur/test.swift:55:3 -> apply function]]];
-
-  $T2:
-    Constraints:
-      $T2 literal conforms to ExpressibleByIntegerLiteral [[locator@0x1258f0ac0 [IntegerLiteral@/Users/amritpankaur/test.swift:55:1]]];
-      ($T2, $T3) -> $T4 applicable fn $T1 [[locator@0x1258f0d00 [Binary@/Users/amritpankaur/test.swift:55:3 -> apply function]]];
-
-  $T3:
-    Constraints:
-      $T3 literal conforms to ExpressibleByUnicodeScalarLiteral [[locator@0x1258f0b78 [StringLiteral@/Users/amritpankaur/test.swift:55:5]]];
-      ($T2, $T3) -> $T4 applicable fn $T1 [[locator@0x1258f0d00 [Binary@/Users/amritpankaur/test.swift:55:3 -> apply function]]];
-
-  $T4:
-    Constraints:
-      ($T2, $T3) -> $T4 applicable fn $T1 [[locator@0x1258f0d00 [Binary@/Users/amritpankaur/test.swift:55:3 -> apply function]]];
-      $T4 operator arg conv Float16 [[locator@0x1258f2e10 [Binary@/Users/amritpankaur/test.swift:55:9 -> apply argument -> comparing call argument #0 to parameter #0]]];
-
-  $T5:
-    Constraints:
-      $T5 literal conforms to ExpressibleByIntegerLiteral [[locator@0x1258f0da8 [IntegerLiteral@/Users/amritpankaur/test.swift:55:11]]];
-      $T5 operator arg conv Float16 [[locator@0x1258f2eb0 [Binary@/Users/amritpankaur/test.swift:55:9 -> apply argument -> comparing call argument #1 to parameter #1]]];
-
-  $T6:
-
 ---Connected components---
   0: $T1 $T2 $T3 $T4
   1: $T5
