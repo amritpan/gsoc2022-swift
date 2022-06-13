@@ -24,8 +24,8 @@
             (argument_list
               (argument
                 (declref_expr type='<null>' decl=test.(file).top-level code.explicit closure discriminator=0.x@/Users/amritpankaur/test.swift:59:7 function_ref=unapplied))
-            )))))
-  ))
+            )))))))
+
 Score: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 Contextual Type: <null>
 Type Variables:
@@ -39,6 +39,7 @@ Active Constraints:
 Inactive Constraints:
   $T1 closure can default to () -> $T2 [[locator@0x13b008250 [Closure@/Users/amritpankaur/test.swift:58:6]]];
   $T1 arg conv () -> Void [[locator@0x13b008490 [Call@/Users/amritpankaur/test.swift:58:1 -> apply argument -> comparing call argument #0 to parameter #0]]];
+
 Resolved overloads:
   selected overload set choice test: $T0 == (() -> Void) -> () for locator@0x13b008200 [DeclRef@/Users/amritpankaur/test.swift:58:1]
 
@@ -67,6 +68,7 @@ Retired Constraints:
   $T2 can default to () [[locator@0x13b0082a0 [Closure@/Users/amritpankaur/test.swift:58:6 -> closure result]]];
   $T1 arg conv () -> Void [[locator@0x13b008490 [Call@/Users/amritpankaur/test.swift:58:1 -> apply argument -> comparing call argument #0 to parameter #0]]];
   $T1 closure can default to () -> $T2 [[locator@0x13b008250 [Closure@/Users/amritpankaur/test.swift:58:6]]];
+
 Resolved overloads:
   selected overload set choice test: $T0 == (() -> Void) -> () for locator@0x13b008200 [DeclRef@/Users/amritpankaur/test.swift:58:1]
 
@@ -77,16 +79,16 @@ Resolved overloads:
         )
       )
       (attempting conjunction element syntactic element (call_expr type='<null>'
-  (overloaded_decl_ref_expr type='<null>' name=print number_of_decls=2 function_ref=single decls=[
-    Swift.(file).print(_:separator:terminator:),
-    Swift.(file).print(_:separator:terminator:to:)])
-  (argument_list
-    (argument
-      (declref_expr type='<null>' decl=test.(file).top-level code.explicit closure discriminator=0.x@/Users/amritpankaur/test.swift:59:7 function_ref=unapplied))
-  ))
+        (overloaded_decl_ref_expr type='<null>' name=print number_of_decls=2 function_ref=single decls=[
+          Swift.(file).print(_:separator:terminator:),
+          Swift.(file).print(_:separator:terminator:to:)])
+        (argument_list(
+          (argument
+            (declref_expr type='<null>' decl=test.(file).top-level code.explicit closure discriminator=0.x@/Users/amritpankaur/test.swift:59:7 function_ref=unapplied))
+        ))
         (overload set choice binding $T6 := $T4)
-        (disabled disjunction term $T5 bound to decl Swift.(file).print(_:separator:terminator:to:) : <Target where Target : TextOutputStream> (Any..., separator: String, terminator: String, to: inout Target) -> () [[locator@0x13b008998 [OverloadedDeclRef@/Users/amritpankaur/test.swift:60:3]]];)
-        (introducing single enabled disjunction term $T5 bound to decl Swift.(file).print(_:separator:terminator:) : (Any..., String, String) -> () [[locator@0x13b008998 [OverloadedDeclRef@/Users/amritpankaur/test.swift:60:3]]];)
+        (disabled disjunction term $T5 bound to decl Swift.(file).print(_:separator:terminator:to:) : <Target where Target : TextOutputStream    (Any..., separator: String, terminator: String, to: inout Target) -> () [[locator@0x13b008998    [OverloadedDeclRef@/Users/amritpankaur/test.swift:60:3]]];)
+        (introducing single enabled disjunction term $T5 bound to decl Swift.(file).print(_:separator:terminator:) : (Any..., String, Strin-> ()       [[locator@0x13b008998 [OverloadedDeclRef@/Users/amritpankaur/test.swift:60:3]]];)
         (overload set choice binding $T5 := (Any..., String, String) -> ())
         (common result type for $T5 is ())
         (increasing score due to empty-existential conversion)
@@ -115,11 +117,12 @@ Retired Constraints:
   disjunction [[locator@0x13b008998 [OverloadedDeclRef@/Users/amritpankaur/test.swift:60:3]]]:
 >             $T5 bound to decl Swift.(file).print(_:separator:terminator:) : (Any..., String, String) -> () [[locator@0x13b008998 [OverloadedDeclRef@/Users/amritpankaur/test.swift:60:3]]];
 >  [disabled] $T5 bound to decl Swift.(file).print(_:separator:terminator:to:) : <Target where Target : TextOutputStream> (Any..., separator: String, terminator: String, to: inout Target) -> () [[locator@0x13b008998 [OverloadedDeclRef@/Users/amritpankaur/test.swift:60:3]]];
-  $T2 subtype Void [[locator@0x13b0087e0 [Call@/Users/amritpankaur/test.swift:58:1 -> apply argument -> comparing call argument #0 to parameter #0 -> function result]]];
-  $T2 can default to () [[locator@0x13b0082a0 [Closure@/Users/amritpankaur/test.swift:58:6 -> closure result]]];
-  $T1 arg conv () -> Void [[locator@0x13b008490 [Call@/Users/amritpankaur/test.swift:58:1 -> apply argument -> comparing call argument #0 to parameter #0]]];
-  $T1 closure can default to () -> $T2 [[locator@0x13b008250 [Closure@/Users/amritpankaur/test.swift:58:6]]];
-Resolved overloads:
+    $T2 subtype Void [[locator@0x13b0087e0 [Call@/Users/amritpankaur/test.swift:58:1 -> apply argument ->   comparing call argument #0 to parameter #0 -> function result]]];
+    $T2 can default to () [[locator@0x13b0082a0 [Closure@/Users/amritpankaur/test.swift:58:6 -> closure   result]]];
+    $T1 arg conv () -> Void [[locator@0x13b008490 [Call@/Users/amritpankaur/test.swift:58:1 -> apply  argument -> comparing call argument #0 to parameter #0]]];
+    $T1 closure can default to () -> $T2 [[locator@0x13b008250 [Closure@/Users/amritpankaur/test.swift:58:6]]];
+
+  Resolved overloads:
   selected overload set choice test: $T0 == (() -> Void) -> () for locator@0x13b008200 [DeclRef@/Users/amritpankaur/test.swift:58:1]
   selected overload set choice x: $T6 == $T4 for locator@0x13b008b28 [DeclRef@/Users/amritpankaur/test.swift:60:9]
   selected overload set choice print: $T5 == (Any..., String, String) -> () for locator@0x13b008998 [OverloadedDeclRef@/Users/amritpankaur/test.swift:60:3]
@@ -187,8 +190,8 @@ Disjunction choices:
             (argument_list
               (argument
                 (declref_expr type='<null>' decl=test.(file).top-level code.explicit closure discriminator=0.x@/Users/amritpankaur/test.swift:59:7 function_ref=unapplied))
-            )))))
-  ))
+            )))))))
+
 ---Type-checked expression---
 (integer_literal_expr type='Int' location=/Users/amritpankaur/test.swift:59:11 range=[/Users/amritpankaur/test.swift:59:11 - line:59:11] value=42 builtin_initializer=Swift.(file).Int.init(_builtinIntegerLiteral:) initializer=**NULL**)
 ---Type-checked expression---
